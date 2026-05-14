@@ -23,9 +23,14 @@ export function CTA() {
             Únete a las empresas líderes de LATAM que ya han digitalizado sus almacenes. Agenda una demostración personalizada hoy.
           </p>
           
-          <button className="bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-[0_0_20px_rgba(37,99,235,0.5)] hover:shadow-[0_0_40px_rgba(37,99,235,0.7)] hover:scale-105 flex items-center justify-center gap-2 mx-auto">
-            Agenda una Demo <ArrowRight size={20} />
-          </button>
+          <a 
+            href="https://demologistico.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-max bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-[0_0_20px_rgba(37,99,235,0.5)] hover:shadow-[0_0_40px_rgba(37,99,235,0.7)] hover:scale-105 flex items-center justify-center gap-2 mx-auto"
+          >
+            Ver Demo <ArrowRight size={20} />
+          </a>
         </motion.div>
       </div>
     </section>

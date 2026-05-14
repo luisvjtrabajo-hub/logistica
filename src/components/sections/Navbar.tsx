@@ -44,9 +44,14 @@ export function Navbar() {
           <button className="text-sm font-medium hover:text-primary transition-colors">
             Iniciar Sesión
           </button>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(37,99,235,0.4)]">
-            Solicitar Demo
-          </button>
+          <a 
+            href="https://demologistico.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_0_15px_rgba(37,99,235,0.4)]"
+          >
+            Ver Demo
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -70,9 +75,14 @@ export function Navbar() {
           <a href="#beneficios" className="text-muted-foreground p-2">Beneficios</a>
           <div className="h-px bg-white/10 w-full my-2"></div>
           <button className="w-full text-left p-2 font-medium">Iniciar Sesión</button>
-          <button className="w-full bg-primary text-white p-3 rounded-lg font-medium mt-2">
-            Solicitar Demo
-          </button>
+          <a 
+            href="https://demologistico.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-full bg-primary text-white p-3 rounded-lg font-medium mt-2 text-center block"
+          >
+            Ver Demo
+          </a>
         </motion.div>
       )}
     </header>
