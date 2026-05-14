@@ -49,7 +49,7 @@ export function Hero() {
               rel="noopener noreferrer" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] flex items-center justify-center gap-2"
             >
-              Agenda una Consultoría <ArrowRight size={18} />
+              Ver Demo <ArrowRight size={18} />
             </a>
             <button className="bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center gap-2">
               Ver Plataforma
