@@ -11,7 +11,7 @@ export function Solution() {
     { icon: <BellRing />, title: "Alertas en Tiempo Real", desc: "Notificaciones operacionales proactivas." },
     { icon: <TrendingUp />, title: "Productividad de Almacén", desc: "Optimización de rutas de picking." },
     { icon: <BarChart />, title: "Analítica Operacional", desc: "Dashboards y KPIs logísticos." },
-    { icon: <Database />, title: "Integraciones ERP/WMS", desc: "Conexión nativa con SAP, Oracle, etc." },
+    { icon: <Database />, title: "Integración Flexible", desc: "Compatible con ERP, WMS, APIs y sistemas legacy existentes." },
     { icon: <BrainCircuit />, title: "Insights con IA", desc: "Predicción de demanda y quiebres." },
   ];
 

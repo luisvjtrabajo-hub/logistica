@@ -3,6 +3,7 @@ import { TrustLogos } from "@/components/sections/TrustLogos";
 import { Problem } from "@/components/sections/Problem";
 import { Solution } from "@/components/sections/Solution";
 import { DashboardPreview } from "@/components/sections/DashboardPreview";
+import { CustomImplementation } from "@/components/sections/CustomImplementation";
 import { Benefits } from "@/components/sections/Benefits";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -19,6 +20,7 @@ export default function Home() {
       <TrustLogos />
       <Problem />
       <Solution />
+      <CustomImplementation />
       <DashboardPreview />
       <Benefits />
       <HowItWorks />

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { CheckCircle2 } from "lucide-react";
 
 export function Benefits() {
   const stats = [
@@ -10,15 +11,24 @@ export function Benefits() {
     { value: "+30%", label: "Productividad en almacén" },
   ];
 
+  const enterpriseBenefits = [
+    "Adaptación a procesos existentes",
+    "No requiere reemplazar sistemas actuales",
+    "Configuración personalizada",
+    "Implementación progresiva",
+    "Integración con múltiples tecnologías",
+    "Flexibilidad operacional"
+  ];
+
   return (
     <section className="py-24 border-t border-white/5" id="beneficios">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Resultados que impactan tu <span className="text-gradient">línea final</span>
+            Valor Enterprise para tu <span className="text-gradient">operación</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            No solo mejoramos procesos, entregamos métricas tangibles que justifican la inversión desde el primer trimestre.
+            No solo entregamos métricas tangibles, sino que aseguramos una adopción tecnológica sin fricciones mediante un enfoque consultivo.
           </p>
         </div>
 
@@ -40,6 +50,25 @@ export function Benefits() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-20 max-w-5xl mx-auto glass-panel p-8 md:p-12 rounded-2xl border-primary/20">
+          <h3 className="text-2xl font-bold mb-8 text-center">Ventajas de nuestra arquitectura</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {enterpriseBenefits.map((benefit, i) => (
+              <motion.div 
+                key={i}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="flex items-center gap-3"
+              >
+                <CheckCircle2 className="text-primary shrink-0" size={24} />
+                <span className="text-lg text-foreground/90">{benefit}</span>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

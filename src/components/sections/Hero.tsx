@@ -15,7 +15,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6"
           >
             <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-            Plataforma #1 para Logística en LATAM
+            Plataforma SaaS Enterprise para Logística en LATAM
           </motion.div>
           
           <motion.h1 
@@ -24,8 +24,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
           >
-            Control en Tiempo Real para <br className="hidden md:block" />
-            <span className="text-gradient">Operaciones Logísticas Modernas</span>
+            Monitoreo y Automatización <br className="hidden md:block" />
+            <span className="text-gradient">Adaptada a tu Operación</span>
           </motion.h1>
           
           <motion.p 
@@ -34,7 +34,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl"
           >
-            Automatiza operaciones de almacén, reduce errores de inventario, mejora la trazabilidad FEFO y conecta todo tu ecosistema logístico en una sola plataforma inteligente.
+            Nuestra plataforma enterprise se integra con tus sistemas actuales y se configura según tus reglas de negocio, centralizando y automatizando tus procesos logísticos sin fricciones.
           </motion.p>
           
           <motion.div 
@@ -49,7 +49,7 @@ export function Hero() {
               rel="noopener noreferrer" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] flex items-center justify-center gap-2"
             >
-              Ver Demo <ArrowRight size={18} />
+              Agenda una Consultoría <ArrowRight size={18} />
             </a>
             <button className="bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center gap-2">
               Ver Plataforma

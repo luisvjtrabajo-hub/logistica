@@ -20,7 +20,7 @@ export function CTA() {
             Transforma tu operación logística con <span className="text-gradient">inteligencia en tiempo real</span>.
           </h2>
           <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Únete a las empresas líderes de LATAM que ya han digitalizado sus almacenes. Agenda una demostración personalizada hoy.
+            Únete a las empresas líderes de LATAM que ya han digitalizado sus almacenes. Agenda una consultoría y descubre cómo adaptamos la plataforma a tu negocio.
           </p>
           
           <a 
@@ -29,7 +29,7 @@ export function CTA() {
             rel="noopener noreferrer" 
             className="w-max bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-[0_0_20px_rgba(37,99,235,0.5)] hover:shadow-[0_0_40px_rgba(37,99,235,0.7)] hover:scale-105 flex items-center justify-center gap-2 mx-auto"
           >
-            Ver Demo <ArrowRight size={20} />
+            Solicitar Evaluación Operacional <ArrowRight size={20} />
           </a>
         </motion.div>
       </div>

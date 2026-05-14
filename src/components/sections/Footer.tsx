@@ -40,7 +40,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Sobre Nosotros</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Casos de Éxito</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Integraciones (ERP/WMS)</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Conectividad Empresarial</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Contacto</a></li>
             </ul>
           </div>

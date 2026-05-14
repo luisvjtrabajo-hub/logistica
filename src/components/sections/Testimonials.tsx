@@ -12,7 +12,7 @@ export function Testimonials() {
       company: "RetailSur Chile"
     },
     {
-      quote: "El control FEFO automatizado nos ha salvado miles de dólares en mermas farmacéuticas. La integración con nuestro SAP fue impecable y rápida.",
+      quote: "El control FEFO automatizado nos ha salvado miles de dólares en mermas farmacéuticas. La integración con nuestros sistemas existentes fue impecable y rápida, adaptándose perfectamente a nuestras reglas de negocio.",
       author: "Ana Ruiz",
       role: "Jefa de Operaciones",
       company: "FarmaDist Perú"

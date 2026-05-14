@@ -13,8 +13,8 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "vvlogix | Control en Tiempo Real para Operaciones Logísticas Modernas",
-  description: "Automatiza operaciones de almacén, reduce errores de inventario, mejora la trazabilidad FEFO y conecta todo tu ecosistema logístico en una sola plataforma inteligente.",
+  title: "vvlogix | Plataforma SaaS Enterprise para Logística",
+  description: "Plataforma SaaS enterprise para monitoreo operacional y automatización logística. Integración personalizada y adaptable a las reglas de tu negocio.",
 };
 
 export default function RootLayout({

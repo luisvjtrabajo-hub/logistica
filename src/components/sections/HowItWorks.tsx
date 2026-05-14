@@ -7,7 +7,7 @@ export function HowItWorks() {
     {
       num: "01",
       title: "Conecta tus sistemas",
-      desc: "Integración plug-and-play con tu ERP o WMS actual mediante APIs seguras."
+      desc: "Conectividad empresarial personalizada con tus sistemas existentes mediante APIs, archivos o procesos legacy."
     },
     {
       num: "02",
