@@ -51,9 +51,6 @@ export function Hero() {
             >
               Ver Demo <ArrowRight size={18} />
             </a>
-            <button className="bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center gap-2">
-              Ver Plataforma
-            </button>
           </motion.div>
         </div>
 
