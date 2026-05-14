@@ -7,6 +7,7 @@ import { CustomImplementation } from "@/components/sections/CustomImplementation
 import { Benefits } from "@/components/sections/Benefits";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Testimonials } from "@/components/sections/Testimonials";
+import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import { Footer } from "@/components/sections/Footer";
 import { Navbar } from "@/components/sections/Navbar";
@@ -25,6 +26,7 @@ export default function Home() {
       <Benefits />
       <HowItWorks />
       <Testimonials />
+      <FAQ />
       <CTA />
       <Footer />
     </main>
