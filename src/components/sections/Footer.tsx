@@ -12,13 +12,9 @@ export function Footer() {
               </div>
               <span className="font-bold text-2xl tracking-tight">vvlogix</span>
             </div>
-            <p className="text-muted-foreground max-w-sm mb-4">
+            <p className="text-muted-foreground max-w-sm mb-6">
               Software logístico SaaS enterprise B2B. Proveemos supply chain visibility, monitoreo ASN y control operacional avanzado.
             </p>
-            <div className="flex flex-col gap-2 mb-6">
-              <p className="text-xs text-muted-foreground flex items-center gap-2"><Globe size={14} className="text-primary"/> Sede Perú: Av. Empresarial, Lima, PE</p>
-              <p className="text-xs text-muted-foreground flex items-center gap-2"><Globe size={14} className="text-primary"/> Sede Chile: Las Condes, Santiago, CL</p>
-            </div>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-primary/20 hover:text-primary transition-colors">
                 <Globe size={18} />
