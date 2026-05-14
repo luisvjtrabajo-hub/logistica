@@ -29,7 +29,7 @@ export function Navbar() {
           <div className="bg-primary/20 p-2 rounded-lg text-primary">
             <PackageSearch size={24} />
           </div>
-          <span className="font-bold text-xl tracking-tight">LogisTech</span>
+          <span className="font-bold text-xl tracking-tight">vvlogix</span>
         </div>
 
         {/* Desktop Nav */}

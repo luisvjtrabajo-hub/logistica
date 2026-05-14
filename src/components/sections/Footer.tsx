@@ -10,7 +10,7 @@ export function Footer() {
               <div className="bg-primary/20 p-2 rounded-lg text-primary">
                 <PackageSearch size={24} />
               </div>
-              <span className="font-bold text-2xl tracking-tight">LogisTech</span>
+              <span className="font-bold text-2xl tracking-tight">vvlogix</span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
               Plataforma SaaS líder para logística y operaciones de almacén en Perú y Chile. Control en tiempo real para operaciones modernas.
@@ -50,7 +50,7 @@ export function Footer() {
         
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} LogisTech Solutions. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} vvlogix Solutions. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-muted-foreground hover:text-white transition-colors">Términos Legales</a>

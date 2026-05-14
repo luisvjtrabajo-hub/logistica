@@ -6,7 +6,7 @@ import { Quote } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      quote: "LogisTech transformó nuestro centro de distribución en Santiago. Pasamos de hacer auditorías manuales semanales a tener control exacto en tiempo real. La reducción de errores es impresionante.",
+      quote: "vvlogix transformó nuestro centro de distribución en Santiago. Pasamos de hacer auditorías manuales semanales a tener control exacto en tiempo real. La reducción de errores es impresionante.",
       author: "Carlos Mendoza",
       role: "Supply Chain Manager",
       company: "RetailSur Chile"

@@ -68,7 +68,7 @@ export function Hero() {
                 <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
               </div>
-              <div className="text-xs text-muted-foreground font-mono">logistech-dashboard-v2.0</div>
+              <div className="text-xs text-muted-foreground font-mono">vvlogix-dashboard-v2.0</div>
             </div>
             
             {/* Dashboard Content */}
