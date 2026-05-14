@@ -41,9 +41,6 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <button className="text-sm font-medium hover:text-primary transition-colors">
-            Iniciar Sesión
-          </button>
           <a 
             href="https://demologistico.vercel.app/" 
             target="_blank" 
@@ -74,7 +71,6 @@ export function Navbar() {
           <a href="#plataforma" className="text-muted-foreground p-2">Plataforma</a>
           <a href="#beneficios" className="text-muted-foreground p-2">Beneficios</a>
           <div className="h-px bg-white/10 w-full my-2"></div>
-          <button className="w-full text-left p-2 font-medium">Iniciar Sesión</button>
           <a 
             href="https://demologistico.vercel.app/" 
             target="_blank" 
